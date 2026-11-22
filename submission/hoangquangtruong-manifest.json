@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "hoangquangtruong",
+  "revision": 1,
+  "created_at": "2026-11-21T13:52:25+00:00",
+  "files": [
+    {
+      "file": "hoangquangtruong-front.zip",
+      "bytes": 21534,
+      "sha256": "cacbd65fee0a9e0987bb6f4a3449189169627352431be1536465e6958cbec9e4",
+      "contains_images": false,
+      "images": 16,
+      "images_unlabelled": 0,
+      "images_all_tags": 16,
+      "shapes_by_label": {
+        "crosswalk": 39,
+        "drivable": 28,
+        "lane": 85,
+        "road_curb": 34,
+        "traffic_light": 19,
+        "traffic_sign": 21
+      }
+    },
+    {
+      "file": "hoangquangtruong-fisheye.zip",
+      "bytes": 24203,
+      "sha256": "6cc9564ef7adb2605da662fc194764f531b80d10fe5a1e0876b9f7ca8ff0a278",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 18,
+        "drivable": 13,
+        "lane": 8,
+        "road_curb": 33,
+        "traffic_light": 3,
+        "traffic_sign": 9
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 17,
+    "chính": 49,
+    "nhẹ": 3
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
